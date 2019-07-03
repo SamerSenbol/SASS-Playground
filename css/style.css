@@ -24,11 +24,20 @@ body {
   display: flex;
   justify-content: space-around; }
 
-.item {
+.navBar {
   background-color: #f1425d;
   padding: 6px;
   margin: 30px;
   font-size: 13px; }
+  .navBar li {
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    padding: 6px; }
+  .navBar li a {
+    font-size: 14px;
+    color: white;
+    padding: 6px; }
 
 .userBar {
   background-color: #f1425d;
@@ -37,41 +46,18 @@ body {
   font-size: 13px;
   text-decoration: none;
   width: 20%; }
+  .userBar button {
+    display: inline-block;
+    font-size: 18px;
+    color: red;
+    padding: 2px; }
 
-.navBar li a {
-  font-size: 14px;
-  color: white;
-  padding: 6px; }
-
-.navBar li {
-  display: inline-block;
-  font-size: 14px;
-  color: white;
-  padding: 6px; }
-
-.userBar li {
-  display: inline-block;
-  font-size: 18px;
-  color: white;
-  padding: 2px; }
-
-/* .logo-box{
-    position: absolute;
-    top: 40px;
-    float: right
-}
-
-.logo {
-    height:70px;
-    text-align: center;
-    background:rgba(255,255,255,.1);
-} */
-.text-box > h3 {
+.text-box h3 {
   color: white;
   justify-content: center;
   text-align: center; }
 
-.text-box > p {
+.text-box p {
   color: white;
   text-align: center; }
 
