@@ -1,0 +1,19 @@
+{
+  "name": "substly",
+  "version": "1.0.0",
+  "description": "arbets prov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamerSenbol/substly.git"
+  },
+  "author": "Samer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamerSenbol/substly/issues"
+  },
+  "homepage": "https://github.com/SamerSenbol/substly#readme"
+}
