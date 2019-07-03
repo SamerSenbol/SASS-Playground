@@ -1,5 +1,5 @@
-$color-primary-dark:rgba(15, 27, 136, 0.801);
-$color-primary-light: rgba(13, 13, 189, 0.801);
+$color-primary-dark: #092b9c;
+$color-primary-light:#4967ca;
 $color-grey-dark: #777;
 $color-pink-dark: #f1425d;
 
@@ -21,8 +21,8 @@ body{
     height: 95vh;
     background-image:linear-gradient(
         to right,
-    rgba($color-primary-dark),
-    rgba($color-primary-light)),
+    rgba($color-primary-dark , 0.8),
+    rgba($color-primary-light , 0.8)),
 url(../img/header.jpg);
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@ url(../img/header.jpg);
 
     clip-path: ellipse(100% 57% at 51% 35%);
 }
-
+ 
 /*header navbar*/
 
 .navContainer{

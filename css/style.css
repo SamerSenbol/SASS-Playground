@@ -7,12 +7,11 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7;
-  color: #777; }
+  line-height: 1.7; }
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right, rgba(13, 13, 189, 0.8), rgba(15, 27, 136, 0.8)), url(../img/header.jpg);
+  background-image: linear-gradient(to right, rgba(9, 43, 156, 0.8), rgba(73, 103, 202, 0.8)), url(../img/header.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
