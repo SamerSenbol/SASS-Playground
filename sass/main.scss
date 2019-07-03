@@ -1,8 +1,7 @@
-/*
-COLORS:
-blue:
-
-*/
+$color-primary-dark:rgba(15, 27, 136, 0.801);
+$color-primary-light: rgba(13, 13, 189, 0.801);
+$color-grey-dark: #777;
+$color-pink-dark: #f1425d;
 
 *{
     margin: 0;
@@ -15,15 +14,15 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    color: #777;
+    $color:$color-grey-dark;
 }
 
 .header{
     height: 95vh;
     background-image:linear-gradient(
         to right,
-    rgba(13, 13, 189, 0.801),
-    rgba(15, 27, 136, 0.801)),
+    rgba($color-primary-dark),
+    rgba($color-primary-light)),
 url(../img/header.jpg);
     background-size: cover;
     background-position: center;
@@ -41,13 +40,13 @@ url(../img/header.jpg);
     justify-content: space-around;
 }
 .item{
-    background-color: #f1425d;
+    background-color: $color-pink-dark;
     padding: 6px;
     margin: 30px;
     font-size: 13px;
 }
 .userBar{
-    background-color: #f1425d;
+    background-color: $color-pink-dark;
     padding: 13px;
     margin: 3px;
     font-size: 13px;
