@@ -1,0 +1,96 @@
+/*
+COLORS:
+blue:
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777; }
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right, rgba(13, 13, 189, 0.801), rgba(15, 27, 136, 0.801)), url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  clip-path: ellipse(100% 57% at 51% 35%); }
+
+/*header navbar*/
+.navContainer {
+  background-color: blueviolet;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around; }
+
+.item {
+  background-color: #f1425d;
+  padding: 6px;
+  margin: 30px;
+  font-size: 13px; }
+
+.userBar {
+  background-color: #f1425d;
+  padding: 13px;
+  margin: 3px;
+  font-size: 13px;
+  text-decoration: none;
+  width: 20%; }
+
+.navBar li a {
+  font-size: 14px;
+  color: white;
+  padding: 6px; }
+
+.navBar li {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  padding: 6px; }
+
+.userBar li {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  padding: 2px; }
+
+/* .logo-box{
+    position: absolute;
+    top: 40px;
+    float: right
+}
+
+.logo {
+    height:70px;
+    text-align: center;
+    background:rgba(255,255,255,.1);
+} */
+.text-box > h3 {
+  color: white;
+  justify-content: center;
+  text-align: center; }
+
+.text-box > p {
+  color: white;
+  text-align: center; }
+
+.header-button {
+  position: flex;
+  float: center; }
+
+button {
+  border: 1px solid;
+  border-radius: 45px;
+  color: white;
+  background-color: green; }
+
+button:hover {
+  background-color: blue;
+  color: beige; }
