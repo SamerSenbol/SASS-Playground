@@ -46,27 +46,30 @@ url(../img/header.jpg);
     margin: 30px;
     font-size: 13px;
 }
-.rightBar{
-
+.userBar{
     background-color: #f1425d;
     padding: 13px;
     margin: 3px;
     font-size: 13px;
     text-decoration: none;
     width: 20%;
-
 }
-.rightBar li{
-    display:inline-block;
-    font-size: 18px;
+.navBar li a{
+    font-size: 14px;
     color: white;
     padding: 6px;
 }
-.leftBar li{
+.navBar li {
     display:inline-block;
-    padding: 13px;
-    margin: 3px;
-    font-size: 13px;
+    font-size: 14px;
+    color: white;
+    padding: 6px;
+}
+.userBar li{
+    display:inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 2px;
 }
 
 
@@ -93,12 +96,12 @@ text-align: center;
 }
 
 .header-button{
-    position: absolute;
+    position: flex;
     float: center
 }
 button{
-    border: 1px solid #777;
-    border-radius: 50px;
+    border: 1px solid;
+    border-radius: 45px;
     color: white;
     background-color: green
 }
