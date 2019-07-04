@@ -1,8 +1,10 @@
-$color-primary-dark: #092b9c;
-$color-primary-light:#4967ca;
+$color-primary-dark: #072481; // Dark blue
+$color-primary-light:#183baf; // light blue
 $color-grey-dark: #777;
 $color-pink-dark: #f1425d;
-$color-green:  green;
+$color-green:  rgba(7, 241, 7, 0.63);
+$color-beige-light:#f3ede7;
+$color-white:#FFFFFF;
 
 *{
     margin: 0;
@@ -14,8 +16,8 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.7;
-    $color:$color-grey-dark;
+    line-height: 1.9;
+    $color:$color-beige-light;
 }
 
 .header{
@@ -24,7 +26,7 @@ body{
         to right,
     rgba($color-primary-dark , 0.8),
     rgba($color-primary-light , 0.8)),
-url(../img/header.jpg);
+    url(../img/header.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -35,20 +37,20 @@ url(../img/header.jpg);
 /*header navbar*/
 
 .navContainer{
-    background-color: blueviolet;
     padding: 8px;
     display: flex;
     justify-content: space-around;
 }
+
 .navBar{
-    background-color: $color-pink-dark;
-    padding: 6px;
-    margin: 30px;
+    padding: 4px;
+    margin: 0px;
     font-size: 13px;
+
     li {
         display:inline-block;
         font-size: 14px;
-        color: white;
+        color: $color-white;
         padding: 6px;
     }
 
@@ -56,48 +58,79 @@ url(../img/header.jpg);
         font-size: 14px;
         color: white;
         padding: 6px;
+        text-decoration: none
     }
 }
+
+.logo {
+    width:90px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+    width:65px;
+    height:50px;
+    padding-left: 24px;
+    }
+
+    h1{
+    color: $color-white;
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: bold;
+    text-align: center
+    }
+
+}
+
 .userBar{
-    background-color: $color-pink-dark;
-    padding: 13px;
-    margin: 3px;
-    font-size: 13px;
+    padding: 4px;
+    margin: 0px;
     text-decoration: none;
     width: 20%;
-    
-    button {
-        display:inline-block;
-        font-size: 18px;
-        color: red;
-        padding: 2px;
+  
+    button{
+        float: center;
+        font-size: 12px;
+        width: 70px;
+        color:$color-white;
+        background-color: $color-primary-dark;
+        padding: 1px;
+        border: 0.5px solid;
+        border-radius: 40px;
+    } 
+
+    button:hover{
+        background-color: $color-beige-light;
+        color: $color-primary-dark;
     }
+
 }
+
 .text-box {
-    h3 {
-    color: white;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 30px;
+
+    button {
+        font-size: 14px;
+        width: 160px;
+        height: 35px;
+        color:$color-white;
+        background-color: $color-green;
+        padding: 2px;
+        border: 0.1px solid;
+        border-radius: 40px;
     }
     
-    p {
-        color: white;
-        text-align: center;
+    button:hover{
+        background-color: $color-beige-light;
+        color: $color-primary-dark;
     }
-}
-
-.header-button{
-    position: flex;
-    float: center
-}
-button{
-    border: 1px solid;
-    border-radius: 45px;
-    color: white;
-    background-color: $color-green
-}
-
-button:hover{
-    background-color: blue;
-    color: beige;
 }

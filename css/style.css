@@ -7,11 +7,11 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7; }
+  line-height: 1.9; }
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right, rgba(9, 43, 156, 0.8), rgba(73, 103, 202, 0.8)), url(../img/header.jpg);
+  background-image: linear-gradient(to right, rgba(7, 36, 129, 0.8), rgba(24, 59, 175, 0.8)), url(../img/header.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -19,58 +19,77 @@ body {
 
 /*header navbar*/
 .navContainer {
-  background-color: blueviolet;
   padding: 8px;
   display: flex;
   justify-content: space-around; }
 
 .navBar {
-  background-color: #f1425d;
-  padding: 6px;
-  margin: 30px;
+  padding: 4px;
+  margin: 0px;
   font-size: 13px; }
   .navBar li {
     display: inline-block;
     font-size: 14px;
-    color: white;
+    color: #FFFFFF;
     padding: 6px; }
   .navBar li a {
     font-size: 14px;
     color: white;
-    padding: 6px; }
+    padding: 6px;
+    text-decoration: none; }
+
+.logo {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .logo img {
+    width: 65px;
+    height: 50px;
+    padding-left: 24px; }
+  .logo h1 {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: bold;
+    text-align: center; }
 
 .userBar {
-  background-color: #f1425d;
-  padding: 13px;
-  margin: 3px;
-  font-size: 13px;
+  padding: 4px;
+  margin: 0px;
   text-decoration: none;
   width: 20%; }
   .userBar button {
-    display: inline-block;
-    font-size: 18px;
-    color: red;
-    padding: 2px; }
+    float: center;
+    font-size: 12px;
+    width: 70px;
+    color: #FFFFFF;
+    background-color: #072481;
+    padding: 1px;
+    border: 0.5px solid;
+    border-radius: 40px; }
+  .userBar button:hover {
+    background-color: #f3ede7;
+    color: #072481; }
 
-.text-box h3 {
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
   color: white;
-  justify-content: center;
-  text-align: center; }
-
-.text-box p {
-  color: white;
-  text-align: center; }
-
-.header-button {
-  position: flex;
-  float: center; }
-
-button {
-  border: 1px solid;
-  border-radius: 45px;
-  color: white;
-  background-color: green; }
-
-button:hover {
-  background-color: blue;
-  color: beige; }
+  padding-top: 30px; }
+  .text-box button {
+    font-size: 14px;
+    width: 160px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: rgba(7, 241, 7, 0.63);
+    padding: 2px;
+    border: 0.1px solid;
+    border-radius: 40px; }
+  .text-box button:hover {
+    background-color: #f3ede7;
+    color: #072481; }
