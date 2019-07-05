@@ -15,7 +15,8 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-  clip-path: ellipse(100% 57% at 51% 35%); }
+  clip-path: ellipse(100% 57% at 51% 35%);
+  z-index: 1; }
 
 /*header navbar*/
 .navContainer {
@@ -93,3 +94,66 @@ body {
   .text-box button:hover {
     background-color: #f3ede7;
     color: #072481; }
+
+.imgRow {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3ede7; }
+  .imgRow img {
+    height: 600px;
+    margin-top: -145px;
+    z-index: 2; }
+
+.productsRow {
+  background-color: #f3ede7;
+  justify-content: space-between; }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  margin-bottom: 45px;
+  border: 0.1px solid;
+  border-radius: 10px;
+  z-index: 1; }
+  .cards:first-child {
+    margin-left: 190px; }
+  .cards:last-child {
+    margin-right: 190px; }
+  .cards img {
+    width: 90px;
+    z-index: -1;
+    margin-top: -40px; }
+  .cards button {
+    font-size: 14px;
+    width: 160px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: rgba(7, 241, 7, 0.63);
+    padding: 2px;
+    border: 0.1px solid;
+    border-radius: 40px;
+    margin-bottom: 30px; }
+  .cards button:hover {
+    background-color: #f3ede7;
+    color: #072481; }
+
+.registerRow {
+  background-color: blueviolet; }
+
+.processingRow {
+  background-color: #f3ede7; }
+
+.subscriptionRow {
+  background-color: #072481; }
+
+.footerRow {
+  background-color: rgba(7, 241, 7, 0.63); }

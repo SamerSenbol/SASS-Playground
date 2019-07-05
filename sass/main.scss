@@ -32,6 +32,8 @@ body{
     position: relative;
 
     clip-path: ellipse(100% 57% at 51% 35%);
+
+    z-index: 1;
 }
  
 /*header navbar*/
@@ -133,4 +135,81 @@ body{
         background-color: $color-beige-light;
         color: $color-primary-dark;
     }
+}
+
+.imgRow{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-beige-light;
+
+    img{
+        height: 600px;
+        margin-top: -145px;
+        z-index: 2;
+    }
+}
+.productsRow{
+    background-color: $color-beige-light;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    background-color: $color-white;
+    margin-left: 10px;
+    margin-bottom: 45px;
+    border: 0.1px solid;
+    border-radius: 10px;
+    z-index: 1;
+        &:first-child{
+            margin-left: 190px;
+        }
+        &:last-child{
+            margin-right: 190px;
+        }
+    img{
+        width: 90px;
+        z-index: -1;
+        margin-top: -40px;
+    }
+    button {
+        font-size: 14px;
+        width: 160px;
+        height: 35px;
+        color:$color-white;
+        background-color: $color-green;
+        padding: 2px;
+        border: 0.1px solid;
+        border-radius: 40px;
+        margin-bottom: 30px;
+    }
+    
+    button:hover{
+        background-color: $color-beige-light;
+        color: $color-primary-dark;
+    }
+}
+
+.registerRow{
+    background-color: blueviolet;
+}
+
+.processingRow{
+    background-color: $color-beige-light;
+}
+
+.subscriptionRow{
+    background-color:$color-primary-dark;
+}
+
+.footerRow{
+    background-color:$color-green
 }
