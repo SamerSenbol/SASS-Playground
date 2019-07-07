@@ -199,7 +199,45 @@ body{
 }
 
 .registerRow{
-    background-color: blueviolet;
+    background-color: rgba(224, 243, 241, 0.904);
+    justify-content: space-between;
+
+    button {
+    font-size: 14px;
+    height: 30px;
+    color:$color-white;
+    background-color: $color-green;
+    padding: 2px;
+    border: 0.1px solid;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    }
+
+    h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 45px;
+    border: 0.1px solid;
+    border-radius: 10px;
+    }
+    
+    form{
+    display: flex;
+    flex-direction: row;
+    align-items: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 45px;
+    border: 0.1px solid;
+    border-radius: 10px;
+    }
+
+
 }
 
 .processingRow{
