@@ -10,7 +10,7 @@ body {
   line-height: 1.9; }
 
 .header {
-  height: 95vh;
+  height: 60vh;
   background-image: linear-gradient(to right, rgba(7, 36, 129, 0.8), rgba(24, 59, 175, 0.8)), url(../img/header.jpg);
   background-size: cover;
   background-position: center;
@@ -66,7 +66,7 @@ body {
     font-size: 12px;
     width: 70px;
     color: #FFFFFF;
-    background-color: #072481;
+    background-color: transparent;
     padding: 1px;
     border: 0.5px solid;
     border-radius: 40px; }
@@ -80,8 +80,7 @@ body {
   align-items: center;
   text-align: center;
   font-size: 14px;
-  color: white;
-  padding-top: 30px; }
+  color: white; }
   .text-box button {
     font-size: 14px;
     width: 160px;
@@ -109,7 +108,7 @@ body {
 
 .productsRow {
   background-color: #f3ede7;
-  justify-content: center; }
+  justify-content: space-between; }
 
 .cards {
   display: flex;
@@ -117,7 +116,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 30%;
+  width: 25%;
   background-color: #FFFFFF;
   margin-left: 10px;
   margin-bottom: 45px;
@@ -150,41 +149,30 @@ body {
   background-color: rgba(224, 243, 241, 0.904);
   justify-content: space-between;
   height: 190px; }
+  .registerRow h4 {
+    margin: 12px;
+    margin-left: 80px; }
+  .registerRow h6 {
+    margin: 12px;
+    margin-left: 80px; }
+  .registerRow form {
+    margin: 12px;
+    margin-left: 80px; }
+  .registerRow input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black; }
   .registerRow button {
     font-size: 14px;
     height: 30px;
     color: #FFFFFF;
     background-color: rgba(7, 241, 7, 0.63);
-    padding: 2px;
+    padding-right: 16px;
+    padding-left: 16px;
     border: 0.1px solid;
     border-radius: 40px;
     margin: 12px; }
-  .registerRow h4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 12px; }
-  .registerRow h6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 12px; }
-  .registerRow form {
-    display: flex;
-    flex-direction: row;
-    align-items: inline-block;
-    justify-content: center;
-    text-align: center; }
-  .registerRow input {
-    border-bottom: 1px;
-    background: transparent;
-    color: #000;
-    outline: none;
-    width: 100px; }
 
 .processingRow {
   background-color: #FFFFFF;
@@ -220,7 +208,42 @@ body {
 .footerRow {
   background-color: rgba(7, 241, 7, 0.63);
   color: #FFFFFF;
-  height: 200px; }
+  height: 200px;
+  display: flex; }
+  .footerRow h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 12px;
+    margin-left: 80px; }
+  .footerRow h6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 12px;
+    margin-left: 80px; }
+  .footerRow form {
+    margin: 12px;
+    margin-left: 80px; }
+  .footerRow input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black; }
+  .footerRow button {
+    font-size: 14px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: 0.1px solid;
+    border-radius: 40px;
+    margin: 12px; }
   .footerRow img {
     margin: 40px;
     height: 120px;

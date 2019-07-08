@@ -21,7 +21,7 @@ body{
 }
 
 .header{
-    height: 95vh;
+    height: 60vh;
     background-image:linear-gradient(
         to right,
     rgba($color-primary-dark , 0.8),
@@ -98,7 +98,7 @@ body{
         font-size: 12px;
         width: 70px;
         color:$color-white;
-        background-color: $color-primary-dark;
+        background-color: transparent;
         padding: 1px;
         border: 0.5px solid;
         border-radius: 40px;
@@ -118,7 +118,6 @@ body{
     text-align: center;
     font-size: 14px;
     color: white;
-    padding-top: 30px;
 
     button {
         font-size: 14px;
@@ -153,7 +152,7 @@ body{
 }
 .productsRow{
     background-color: $color-beige-light;
-    justify-content:center;
+    justify-content:space-between;
 }
 
 .cards{
@@ -162,7 +161,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 30%;
+    width: 25%;
     background-color: $color-white;
     margin-left: 10px;
     margin-bottom: 45px;
@@ -203,50 +202,40 @@ body{
     justify-content: space-between;
     height: 190px;
 
+
+    h4{
+    margin: 12px;
+    margin-left: 80px;
+    }
+
+    h6{
+    margin: 12px;
+    margin-left: 80px;
+    }
+
+    form{
+    margin: 12px;
+    margin-left: 80px;
+    }
+
+    input {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+    }
+
     button {
     font-size: 14px;
     height: 30px;
     color:$color-white;
     background-color: $color-green;
-    padding: 2px;
+    padding-right: 16px;
+    padding-left: 16px;
     border: 0.1px solid;
     border-radius: 40px;
     margin: 12px;
     }
-
-    h4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 12px;
-    }
-    h6{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 12px;
-    }
-    
-    form{
-    display: flex;
-    flex-direction: row;
-    align-items: inline-block;
-    justify-content: center;
-    text-align: center;
-    }
-
-    input {
-        border-bottom:1px;
-        background: transparent;
-        color: #000;
-        outline:none;
-        width:100px
-    }
-
 
 }
 
@@ -257,7 +246,6 @@ body{
     img{
         height: 180px;
     }
-       
     
 }
 
@@ -297,6 +285,41 @@ body{
     background-color:$color-green;
     color:$color-white;
     height: 200px;
+
+    h4{
+    margin: 12px;
+    margin-left: 80px;
+    }
+
+    h6{
+    margin: 12px;
+    margin-left: 80px;
+    }
+
+    form{
+    margin: 12px;
+    margin-left: 80px;
+    }
+
+    input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    }
+
+    button {
+    font-size: 14px;
+    height: 30px;
+    color:$color-white;
+    background-color: $color-white;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: 0.1px solid;
+    border-radius: 40px;
+    margin: 12px;
+
+    }
 
     img{
         margin: 40px;
