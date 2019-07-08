@@ -208,22 +208,11 @@ body {
 .footerRow {
   background-color: rgba(7, 241, 7, 0.63);
   color: #FFFFFF;
-  height: 200px;
-  display: flex; }
+  height: 200px; }
   .footerRow h4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     margin: 12px;
     margin-left: 80px; }
   .footerRow h6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     margin: 12px;
     margin-left: 80px; }
   .footerRow form {
@@ -239,8 +228,8 @@ body {
     height: 30px;
     color: #FFFFFF;
     background-color: #FFFFFF;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding-right: 16px;
+    padding-left: 16px;
     border: 0.1px solid;
     border-radius: 40px;
     margin: 12px; }

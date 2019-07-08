@@ -246,6 +246,7 @@ body{
     img{
         height: 180px;
     }
+       
     
 }
 
@@ -287,19 +288,19 @@ body{
     height: 200px;
 
     h4{
-    margin: 12px;
-    margin-left: 80px;
-    }
-
-    h6{
-    margin: 12px;
-    margin-left: 80px;
-    }
-
-    form{
-    margin: 12px;
-    margin-left: 80px;
-    }
+        margin: 12px;
+        margin-left: 80px;
+        }
+    
+        h6{
+        margin: 12px;
+        margin-left: 80px;
+        }
+    
+        form{
+        margin: 12px;
+        margin-left: 80px;
+        }
 
     input {
     border: 0;
@@ -313,8 +314,8 @@ body{
     height: 30px;
     color:$color-white;
     background-color: $color-white;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding-right: 16px;
+    padding-left: 16px;
     border: 0.1px solid;
     border-radius: 40px;
     margin: 12px;
