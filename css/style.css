@@ -15,10 +15,9 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-  clip-path: ellipse(100% 57% at 51% 35%);
-  z-index: 1; }
+  z-index: 1;
+  clip-path: ellipse(100% 57% at 51% 35%); }
 
-/*header navbar*/
 .navContainer {
   padding: 8px;
   display: flex;
@@ -225,14 +224,15 @@ body {
     border-bottom: 1px solid black; }
   .footerRow button {
     font-size: 14px;
-    height: 30px;
     color: #FFFFFF;
     background-color: #FFFFFF;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 1px;
+    padding-left: 1px;
     border: 0.1px solid;
-    border-radius: 40px;
+    border-radius: 18px;
     margin: 12px; }
+    .footerRow button i {
+      color: rgba(7, 241, 7, 0.63); }
   .footerRow i {
     margin: 12px; }
   .footerRow img {

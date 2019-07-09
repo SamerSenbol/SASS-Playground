@@ -303,14 +303,17 @@ body{
 
     button {
         font-size: 14px;
-        height: 30px;
         color:$color-white;
         background-color: $color-white;
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 1px;
+        padding-left: 1px;
         border: 0.1px solid;
-        border-radius: 40px;
+        border-radius: 18px;
         margin: 12px;
+
+        i{
+            color:$color-green; 
+        }
     }
 
     i{
