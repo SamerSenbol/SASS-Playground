@@ -1,5 +1,5 @@
-$color-primary-dark: #072481; // Dark blue
-$color-primary-light:#183baf; // light blue
+$color-primary-dark: #072481; 
+$color-primary-light:#183baf; 
 $color-grey-dark: #777;
 $color-pink-dark: #f1425d;
 $color-green:  rgba(7, 241, 7, 0.63);
@@ -29,16 +29,11 @@ body{
     url(../img/header.jpg);
     background-size: cover;
     background-position: center;
-    
     position: relative;
-
-    clip-path: ellipse(100% 57% at 51% 35%);
-
     z-index: 1;
+    clip-path: ellipse(100% 57% at 51% 35%);
 }
  
-/*header navbar*/
-
 .navContainer{
     padding: 8px;
     display: flex;
@@ -50,7 +45,7 @@ body{
     margin: 0px;
     font-size: 13px;
 
-    li {
+    li{
         display:inline-block;
         font-size: 14px;
         color: $color-white;
@@ -73,19 +68,18 @@ body{
     flex-direction: column;
 
     img {
-    width:65px;
-    height:50px;
-    padding-left: 24px;
+        width:65px;
+        height:50px;
+        padding-left: 24px;
     }
 
     h1{
-    color: $color-white;
-    font-size: 12px;
-    margin-top: 4px;
-    font-weight: bold;
-    text-align: center
+        color: $color-white;
+        font-size: 12px;
+        margin-top: 4px;
+        font-weight: bold;
+        text-align: center
     }
-
 }
 
 .userBar{
@@ -109,7 +103,6 @@ body{
         background-color: $color-beige-light;
         color: $color-primary-dark;
     }
-
 }
 
 .text-box {
@@ -169,17 +162,20 @@ body{
     border: 0.1px solid;
     border-radius: 10px;
     z-index: 1;
+
         &:first-child{
             margin-left: 190px;
         }
         &:last-child{
             margin-right: 190px;
         }
+
     img{
         width: 90px;
         z-index: -1;
         margin-top: -40px;
     }
+
     button {
         font-size: 14px;
         width: 160px;
@@ -203,20 +199,19 @@ body{
     justify-content: space-between;
     height: 190px;
 
-
     h4{
-    margin: 12px;
-    margin-left: 80px;
+        margin: 12px;
+        margin-left: 80px;
     }
 
     h6{
-    margin: 12px;
-    margin-left: 80px;
+        margin: 12px;
+        margin-left: 80px;
     }
 
     form{
-    margin: 12px;
-    margin-left: 80px;
+        margin: 12px;
+        margin-left: 80px;
     }
 
     input {
@@ -227,17 +222,16 @@ body{
     }
 
     button {
-    font-size: 14px;
-    height: 30px;
-    color:$color-white;
-    background-color: $color-green;
-    padding-right: 16px;
-    padding-left: 16px;
-    border: 0.1px solid;
-    border-radius: 40px;
-    margin: 12px;
+        font-size: 14px;
+        height: 30px;
+        color:$color-white;
+        background-color: $color-green;
+        padding-right: 16px;
+        padding-left: 16px;
+        border: 0.1px solid;
+        border-radius: 40px;
+        margin: 12px;
     }
-
 }
 
 .processingRow{
@@ -247,8 +241,6 @@ body{
     img{
         height: 180px;
     }
-       
-    
 }
 
 .subscriptionRow{
@@ -257,15 +249,15 @@ body{
     height: 150px;
 
     button {
-    font-size: 14px;
-    height: 30px;
-    color:$color-white;
-    background-color: $color-green;
-    padding-right: 8px;
-    padding-left: 8px;
-    border: 0.1px solid;
-    border-radius: 40px;
-    margin-top: 60px;
+        font-size: 14px;
+        height: 30px;
+        color:$color-white;
+        background-color: $color-green;
+        padding-right: 8px;
+        padding-left: 8px;
+        border: 0.1px solid;
+        border-radius: 40px;
+        margin-top: 60px;
     }
 
     h4{
@@ -280,7 +272,6 @@ body{
         margin: 12px;
         margin-left: 80px;
     }
- 
 }
 
 .footerRow{
@@ -291,36 +282,39 @@ body{
     h4{
         margin: 12px;
         margin-left: 80px;
-        }
+    }
     
         h6{
-        margin: 12px;
-        margin-left: 80px;
+            margin: 12px;
+            margin-left: 80px;
         }
     
         form{
-        margin: 12px;
-        margin-left: 80px;
+            margin: 12px;
+            margin-left: 80px;
         }
 
     input {
-    border: 0;
-    outline: 0;
-    background: transparent;
-    border-bottom: 1px solid black;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
     }
 
     button {
-    font-size: 14px;
-    height: 30px;
-    color:$color-white;
-    background-color: $color-white;
-    padding-right: 16px;
-    padding-left: 16px;
-    border: 0.1px solid;
-    border-radius: 40px;
-    margin: 12px;
+        font-size: 14px;
+        height: 30px;
+        color:$color-white;
+        background-color: $color-white;
+        padding-right: 16px;
+        padding-left: 16px;
+        border: 0.1px solid;
+        border-radius: 40px;
+        margin: 12px;
+    }
 
+    i{
+        margin: 12px;
     }
 
     img{
@@ -328,6 +322,5 @@ body{
         height: 120px;
         align-items: center;
         justify-content: center;
-    
     }
 }

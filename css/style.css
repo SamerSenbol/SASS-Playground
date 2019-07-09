@@ -233,6 +233,8 @@ body {
     border: 0.1px solid;
     border-radius: 40px;
     margin: 12px; }
+  .footerRow i {
+    margin: 12px; }
   .footerRow img {
     margin: 40px;
     height: 120px;
